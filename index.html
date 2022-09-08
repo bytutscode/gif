@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:url" content="https://bytutscode.github.io/gif/"/>
+    <meta property="og:title" content="Buscador de Gif"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="midia/gif.png"/>
+    <meta property="og:description" content="Busque os melhores Gifs"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Buscador de GIF</title>
+</head>
+<body class="bg-dark position-relative min-vh-100 pb-5">
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Gif</a >
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="cartaz bg-light p-3 border rounded">
+                <h1 class="fw-bold text-center">Buscador de GIF</h1>
+                <div class="p-1 m-auto buscador text-center"><input type="search" id="search" placeholder="Pesquise por seu gif..." name="search" autocomplete="off" class="form-control"></div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row gifs">
+            </div>
+        </section>
+    </main>
+
+<footer class="container-fluid position-absolute bottom-0 text-light p-3 rounded text-center">
+    <p class="small m-0">2022 - Criado e desenvolvido por <a style="text-decoration:none; " href="https://www.linkedin.com/in/samuel-lima-a22821243?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BtrfYKZ8JQTWacYhX8k5OZQ%3D%3D">Samuel Lima</a></p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
