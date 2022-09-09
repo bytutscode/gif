@@ -1,14 +1,13 @@
-body {
-    
-}
-.filme {
-    background-color: #eee;
-    font-size: 16px;
-}
+
 a {
     text-decoration: none;
 }
 .buscador {
     max-width: 700px;
     width: 100%;
+}
+
+.gif {
+    width: 200px;
+    object-fit: cover;
 }
