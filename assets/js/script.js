@@ -7,7 +7,7 @@ async function  getGifs  () {
     
     let html = '';
     for(let i in json.results){
-        html += `<div class="col-md-3 col-sm-6"><div class="d-flex justify-content-center p-3"><img class="img-fluid gif img-thumbnail" src="${json.results[i].media_formats.gif.url}" alt="${json.results[i].content_description}"></div></div>`;
+        html += `<div class="col-6 col-md-3 col-sm-6"><div class="d-flex justify-content-center p-3"><img class="img-fluid gif img-thumbnail" src="${json.results[i].media_formats.gif.url}" alt="${json.results[i].content_description}"></div></div>`;
     };
     
     document.querySelector('.gifs').innerHTML = html;
