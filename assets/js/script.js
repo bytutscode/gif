@@ -1,7 +1,7 @@
 async function  getGifs  () {
     let search = document.querySelector('#search').value;
     document.querySelector('.gifs').innerHTML = 'Carregando...';
-    let url = `https://tenor.googleapis.com/v2/search?q=${search}&key=AIzaSyD2c5Efc-0m53ZWlDASNypLKYRzP1WBliU&client_key=my_test_app&limit=25`;
+    let url = `https://tenor.googleapis.com/v2/search?q=${search}&key=AIzaSyD2c5Efc-0m53ZWlDASNypLKYRzP1WBliU&client_key=my_test_app&limit=24`;
     let json = await fetch(url);
     json = await json.json();
     
